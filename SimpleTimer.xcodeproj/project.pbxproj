@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD34BDE3216A54FC0055444B /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34BDE2216A54FC0055444B /* Knob.swift */; };
+		CD34BDE6216A559F0055444B /* KnobRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34BDE5216A559F0055444B /* KnobRenderer.swift */; };
+		CD34BDEA216A57590055444B /* ArcLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34BDE9216A57590055444B /* ArcLayer.swift */; };
+		CD34BDEC216A57930055444B /* DashLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34BDEB216A57930055444B /* DashLayer.swift */; };
+		CD34BDEE216A57CA0055444B /* FretsLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34BDED216A57CA0055444B /* FretsLayer.swift */; };
+		CD34BDF0216A5A3C0055444B /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34BDEF216A5A3C0055444B /* RotationGestureRecognizer.swift */; };
+		CDC4CB8F2166C1D200C3968A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC4CB8E2166C1D200C3968A /* Assets.xcassets */; };
 		CDE0C3442165F9AB0055BDCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0C3432165F9AB0055BDCE /* AppDelegate.swift */; };
-		CDE0C3462165F9AB0055BDCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0C3452165F9AB0055BDCE /* ViewController.swift */; };
-		CDE0C3492165F9AB0055BDCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE0C3472165F9AB0055BDCE /* Main.storyboard */; };
-		CDE0C34B2165F9AB0055BDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE0C34A2165F9AB0055BDCE /* Assets.xcassets */; };
 		CDE0C34E2165F9AB0055BDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE0C34C2165F9AB0055BDCE /* LaunchScreen.storyboard */; };
 		CDE0C3592165F9AC0055BDCE /* SimpleTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0C3582165F9AC0055BDCE /* SimpleTimerTests.swift */; };
+		CDE0C3662166A09C0055BDCE /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0C3652166A09C0055BDCE /* TimerModel.swift */; };
+		CDE0C3682166A0C90055BDCE /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0C3672166A0C90055BDCE /* TimerViewController.swift */; };
+		CDE0C36A2166A16C0055BDCE /* TimerViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0C3692166A16C0055BDCE /* TimerViewPresenter.swift */; };
+		CDE0C36C2166A1940055BDCE /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0C36B2166A1940055BDCE /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD34BDE2216A54FC0055444B /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Knob.swift; path = ../Knob/Knob.swift; sourceTree = "<group>"; };
+		CD34BDE5216A559F0055444B /* KnobRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KnobRenderer.swift; path = SimpleTimer/Knob/KnobRenderer.swift; sourceTree = SOURCE_ROOT; };
+		CD34BDE9216A57590055444B /* ArcLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcLayer.swift; sourceTree = "<group>"; };
+		CD34BDEB216A57930055444B /* DashLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashLayer.swift; sourceTree = "<group>"; };
+		CD34BDED216A57CA0055444B /* FretsLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretsLayer.swift; sourceTree = "<group>"; };
+		CD34BDEF216A5A3C0055444B /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
+		CDC4CB8E2166C1D200C3968A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE0C3402165F9AB0055BDCE /* SimpleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE0C3432165F9AB0055BDCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDE0C3452165F9AB0055BDCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDE0C3482165F9AB0055BDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CDE0C34A2165F9AB0055BDCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE0C34D2165F9AB0055BDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDE0C34F2165F9AB0055BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDE0C3542165F9AC0055BDCE /* SimpleTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE0C3582165F9AC0055BDCE /* SimpleTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimerTests.swift; sourceTree = "<group>"; };
 		CDE0C35A2165F9AC0055BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE0C3652166A09C0055BDCE /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		CDE0C3672166A0C90055BDCE /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		CDE0C3692166A16C0055BDCE /* TimerViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewPresenter.swift; sourceTree = "<group>"; };
+		CDE0C36B2166A1940055BDCE /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD34BDE4216A55060055444B /* Knob */ = {
+			isa = PBXGroup;
+			children = (
+				CD34BDE2216A54FC0055444B /* Knob.swift */,
+				CD34BDE5216A559F0055444B /* KnobRenderer.swift */,
+				CD34BDEF216A5A3C0055444B /* RotationGestureRecognizer.swift */,
+				CD34BDE8216A57390055444B /* Layers */,
+			);
+			path = Knob;
+			sourceTree = "<group>";
+		};
+		CD34BDE8216A57390055444B /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				CD34BDE9216A57590055444B /* ArcLayer.swift */,
+				CD34BDEB216A57930055444B /* DashLayer.swift */,
+				CD34BDED216A57CA0055444B /* FretsLayer.swift */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
 		CDE0C3372165F9AB0055BDCE = {
 			isa = PBXGroup;
 			children = (
@@ -77,10 +114,13 @@
 		CDE0C3422165F9AB0055BDCE /* SimpleTimer */ = {
 			isa = PBXGroup;
 			children = (
+				CDE0C3652166A09C0055BDCE /* TimerModel.swift */,
+				CDE0C3692166A16C0055BDCE /* TimerViewPresenter.swift */,
+				CDE0C3672166A0C90055BDCE /* TimerViewController.swift */,
+				CDE0C36B2166A1940055BDCE /* TimerView.swift */,
+				CD34BDE4216A55060055444B /* Knob */,
 				CDE0C3432165F9AB0055BDCE /* AppDelegate.swift */,
-				CDE0C3452165F9AB0055BDCE /* ViewController.swift */,
-				CDE0C3472165F9AB0055BDCE /* Main.storyboard */,
-				CDE0C34A2165F9AB0055BDCE /* Assets.xcassets */,
+				CDC4CB8E2166C1D200C3968A /* Assets.xcassets */,
 				CDE0C34C2165F9AB0055BDCE /* LaunchScreen.storyboard */,
 				CDE0C34F2165F9AB0055BDCE /* Info.plist */,
 			);
@@ -178,8 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDE0C34E2165F9AB0055BDCE /* LaunchScreen.storyboard in Resources */,
-				CDE0C34B2165F9AB0055BDCE /* Assets.xcassets in Resources */,
-				CDE0C3492165F9AB0055BDCE /* Main.storyboard in Resources */,
+				CDC4CB8F2166C1D200C3968A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +236,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDE0C3462165F9AB0055BDCE /* ViewController.swift in Sources */,
+				CDE0C36C2166A1940055BDCE /* TimerView.swift in Sources */,
+				CD34BDE3216A54FC0055444B /* Knob.swift in Sources */,
+				CDE0C3682166A0C90055BDCE /* TimerViewController.swift in Sources */,
+				CD34BDF0216A5A3C0055444B /* RotationGestureRecognizer.swift in Sources */,
+				CDE0C3662166A09C0055BDCE /* TimerModel.swift in Sources */,
+				CD34BDEA216A57590055444B /* ArcLayer.swift in Sources */,
+				CD34BDEC216A57930055444B /* DashLayer.swift in Sources */,
+				CD34BDEE216A57CA0055444B /* FretsLayer.swift in Sources */,
+				CDE0C36A2166A16C0055BDCE /* TimerViewPresenter.swift in Sources */,
 				CDE0C3442165F9AB0055BDCE /* AppDelegate.swift in Sources */,
+				CD34BDE6216A559F0055444B /* KnobRenderer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +269,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CDE0C3472165F9AB0055BDCE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDE0C3482165F9AB0055BDCE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CDE0C34C2165F9AB0055BDCE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,7 +410,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcpie.SimpleTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -388,7 +428,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcpie.SimpleTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
